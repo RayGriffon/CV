@@ -199,6 +199,10 @@ div p {
     color: #999;
 }
 
+div a{
+    text-decoration: none;
+}
+
 
 /* Portfolio */
 
@@ -239,31 +243,31 @@ label img {
     object-fit: cover;
 }
 
-#item-1:checked~.cards #song-3,
-#item-2:checked~.cards #song-1,
-#item-3:checked~.cards #song-2 {
+#item-1:checked~.cards #projet-3,
+#item-2:checked~.cards #projet-1,
+#item-3:checked~.cards #projet-2 {
     transform: translatex(-40%) scale(.8);
     opacity: .4;
     z-index: 0;
 }
 
-#item-1:checked~.cards #song-2,
-#item-2:checked~.cards #song-3,
-#item-3:checked~.cards #song-1 {
+#item-1:checked~.cards #projet-2,
+#item-2:checked~.cards #projet-3,
+#item-3:checked~.cards #projet-1 {
     transform: translatex(40%) scale(.8);
     opacity: .4;
     z-index: 0;
 }
 
-#item-1:checked~.cards #song-1,
-#item-2:checked~.cards #song-2,
-#item-3:checked~.cards #song-3 {
+#item-1:checked~.cards #projet-1,
+#item-2:checked~.cards #projet-2,
+#item-3:checked~.cards #projet-3 {
     transform: translatex(0) scale(1);
     opacity: 1;
     z-index: 1;
 }
 
-#item-1:checked~.cards #song-1 img {
+#item-1:checked~.cards #projet-1 img {
     box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
 }
 
@@ -285,14 +289,14 @@ label img {
     margin-right: 10px;
 }
 
-.song-info {
+.projet-info {
     width: calc(100% - 32px);
     display: block;
 }
 
-.song-info .title {
+.projet-info .title {
     color: #403d40;
-    font-size: 14px;
+    font-size: 1.5em;
     line-height: 24px;
 }
 
